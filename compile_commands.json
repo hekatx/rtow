@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/queb/Projects/rtow",
+  "command": "/usr/bin/c++  -I/home/queb/Projects/rtow/includes -g -o CMakeFiles/rtow.dir/src/main.cpp.o -c /home/queb/Projects/rtow/src/main.cpp",
+  "file": "/home/queb/Projects/rtow/src/main.cpp"
+},
+{
+  "directory": "/home/queb/Projects/rtow",
+  "command": "/usr/bin/c++  -I/home/queb/Projects/rtow/includes -g -o CMakeFiles/rtow.dir/src/core/math.cpp.o -c /home/queb/Projects/rtow/src/core/math.cpp",
+  "file": "/home/queb/Projects/rtow/src/core/math.cpp"
+},
+{
+  "directory": "/home/queb/Projects/rtow",
+  "command": "/usr/bin/c++  -I/home/queb/Projects/rtow/includes -g -o CMakeFiles/rtow.dir/src/core/ppm_image.cpp.o -c /home/queb/Projects/rtow/src/core/ppm_image.cpp",
+  "file": "/home/queb/Projects/rtow/src/core/ppm_image.cpp"
+}
+]
