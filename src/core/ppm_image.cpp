@@ -22,6 +22,8 @@ int PPMImage::write_ppm_file(const std::string filename,
   out << "255" << std::endl;
 
   for (int j = m_height - 1; j >= 0; j--) {
+    std::cerr << "\rScanlines remaining: " << ((m_height - j) / m_height) * 100
+              << ' ' << std::flush;
     for (int i = 0; i < m_width; i++) {
       // LOG(j, i);
       color c = draw(i, j);
